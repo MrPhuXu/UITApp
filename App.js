@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Image, Text, View, Button, SafeAreaView, TextInput, TouchableOpacity } from 'react-native';
+import { Alert } from 'react-native';
+import React from 'react';
+import Tinhnam from './lab/Tinhnam';
+import Layout from './lab/Layout';
+import Calculator from './lab/Calculator';
+import Login from './lab/Login';
+import KetQuaHocTap from './lab/KetQuaHoctap';
+import FlatListText from './lab/FlatListText';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    // <Tinhnam></Tinhnam>
+    // <Layout></Layout>
+    // <Calculator></Calculator>
+    // <Login></Login>
+    // <KetQuaHocTap></KetQuaHocTap>
+    <FlatListText></FlatListText>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  );
+};
+
+
+
+
