@@ -7,6 +7,7 @@ import Calculator from './lab/Calculator';
 import Login from './lab/Login';
 import KetQuaHocTap from './lab/KetQuaHoctap';
 import FlatListText from './lab/FlatListText';
+import SectionList from './lab/SectionList';
 
 export default function App() {
   return (
@@ -15,8 +16,8 @@ export default function App() {
     // <Calculator></Calculator>
     // <Login></Login>
     // <KetQuaHocTap></KetQuaHocTap>
-    <FlatListText></FlatListText>
-
+    // <FlatListText></FlatListText>
+    <SectionList></SectionList>
   );
 };
 
